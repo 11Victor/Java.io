@@ -1,4 +1,4 @@
-package br.com.java.io.teste;
+package br.com.java.io.teste.leitura;
 
 import java.io.BufferedReader;
 import java.io.FileInputStream;
@@ -17,7 +17,7 @@ public class TesteLeitura {
         //Transforma bytes em caracteres
         Reader isr = new InputStreamReader(fis, "UTF-8");
         
-        //Unir os caracteres em uma linha e interpretá-los, linha a linha
+        //Unir os caracteres em uma linha e interpretï¿½-los, linha a linha
         BufferedReader br = new BufferedReader(isr);
         
         

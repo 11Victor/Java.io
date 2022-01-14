@@ -1,4 +1,4 @@
-package br.com.java.io.teste;
+package br.com.java.io.teste.escrita;
 
 import java.io.FileWriter;
 import java.io.IOException;

@@ -8,7 +8,7 @@ public class TesteUnicode_Encoding {
 	
 	public static void main(String[] args) throws UnsupportedEncodingException {
 
-		String s = "็";
+		String s = "รง";
         System.out.println(s.codePointAt(0));
 
         Charset charset = Charset.defaultCharset();

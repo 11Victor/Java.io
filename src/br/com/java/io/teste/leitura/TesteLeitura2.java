@@ -1,4 +1,4 @@
-package br.com.java.io.teste;
+package br.com.java.io.teste.leitura;
 
 import java.io.File;
 import java.util.Locale;
@@ -14,9 +14,9 @@ public class TesteLeitura2 {
 //        System.out.println(linha);
 
 		/*
-		 * O Scanner possui o método "hasNextLine", que devolve false quando não existe
-		 * mais nenhum conteúdo a ser lido. Então, enquanto ainda houver conteúdo, ou
-		 * seja, enquanto o método hasNextLine retornar true, leia a linha e imprima-a
+		 * O Scanner possui o mï¿½todo "hasNextLine", que devolve false quando nï¿½o existe
+		 * mais nenhum conteï¿½do a ser lido. Entï¿½o, enquanto ainda houver conteï¿½do, ou
+		 * seja, enquanto o mï¿½todo hasNextLine retornar true, leia a linha e imprima-a
 		 */
 		while (scanner.hasNextLine()) {
 			String linha = scanner.nextLine();
